@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "FSPagerView",
+    name: "FSPagerView_iOS",
     platforms: [
         .iOS(.v12)
     ],
     products: [
-        .library(name: "FSPagerView", targets: ["FSPagerView"]),
+        .library(name: "FSPagerView_iOS", targets: ["FSPagerView"]),
     ],
     targets: [
         .target(name: "FSPagerView", path: "Sources", exclude: ["FSPagerViewObjcCompat.h", "FSPagerViewObjcCompat.m"]),
